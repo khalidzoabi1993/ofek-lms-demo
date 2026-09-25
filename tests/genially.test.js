@@ -18,12 +18,13 @@ test('unmodified Genially SCORM wrapper reports answers, score, completion and r
   let {wrapper,ids}=await launchVendor(attempt);
   await wrapper.start({});
   assert.equal(summary(attempt,course).score,0);
-  ids.forEach((id,i)=>wrapper.onQuizInteractiveQuestionAnswer({interactiveQuestionId:id,interactiveQuestionTitle:`Question ${i+1}`,answerIds:['answer-'+i],type:'quiz',studentAnswers:[i===0?'Venus':'Earth'],isCorrect:i!==0,saveAnswersInSuspendData:true,correctAnswers:['Earth']}));
+  ids.forEach((id,i)=>wrapper.onQuizInteractiveQuestionAnswer({interactiveQuestionId:id,interactiveQuestionTitle:[3,8].includes(i)?'Completa los huecos con las respuestas correctas':`Question ${i+1}`,answerIds:['answer-'+i],type:'quiz',studentAnswers:[i===0?'Venus':'Earth'],isCorrect:i!==0,saveAnswersInSuspendData:true,correctAnswers:['Earth']}));
   wrapper.onSlideChanged(10,'bookmark-10','slide-10','Results');
   wrapper.end();
   assert.equal(summary(attempt,course).score,90);
   assert.equal(summary(attempt,course).success,'passed');
   assert.equal(summary(attempt,course).questions,10);
+  assert.equal(latestInteractions(attempt)[3].id,latestInteractions(attempt)[8].id, 'vendor can reuse a question title for distinct interaction indices');
   assert.equal(summary(attempt,course).wrong,1);
   assert.equal(latestInteractions(attempt)[0].response,'Venus');
   assert.equal(latestInteractions(attempt)[0].correct,'Earth');
