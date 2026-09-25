@@ -1,5 +1,26 @@
 [
   {
+    "id": "genially-questions",
+    "title": "Genially · חידון ידע כללי",
+    "sourceTitle": "Genially · General Knowledge Quiz",
+    "provider": "Genially",
+    "language": "אנגלית",
+    "version": "1.2",
+    "file": "samples/genially-questions.zip",
+    "launch": "courses/genially-questions/genially.html",
+    "sha256": "22f23668bf4f332f4eceb4e5ba2cd45a4d87994d5fffa30d82dc3acd95db2f37",
+    "bytes": 3205057,
+    "fileCount": 90,
+    "manifestId": "recurso.genially.scorm.12",
+    "objectives": [],
+    "mastery": 80,
+    "source": "https://genially.com/features/lms-integration/",
+    "sourceDownload": "https://genially.com/scorm_examples/en/geniallyExampleScorm_Questions.zip",
+    "hasInteractions": true,
+    "questions": 10,
+    "pages": null
+  },
+  {
     "id": "golf-advanced",
     "title": "יסודות הגולף · דיווח מפורט",
     "sourceTitle": "Rustici Software · Golf Explained",
