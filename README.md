@@ -30,7 +30,7 @@ Jira tasks: [TES-58 learning](https://wiseapps.atlassian.net/browse/TES-58), [TE
 
 GitHub Actions runs syntax checks, automated domain/runtime tests, a 90% lines/branches/functions coverage gate **for those two measured core modules**, sample-integrity validation and publishes evidence/artifact downloads. UI and Edge Function coverage are not included in that number. The user's eventual requirement is 90% across the system; that requirement is **not yet achieved or claimed** by this meeting prototype.
 
-CodeRabbit is configured using the already-installed plan only. If the free allowance does not provide a review, the review remains pending. A human review and manual acceptance are still necessary. A config file alone does not enforce a required GitHub check: repository branch rules must require the actual available check names once established. This demo does not auto-merge.
+CodeRabbit is configured using the already-installed plan only. If the free allowance does not provide a review, the review remains pending. A human review and manual acceptance are still necessary. The main branch requires the actual Tests and core coverage 90% and CodeRabbit checks, one human approval, dismissal of stale approvals and resolution of review conversations. This demo does not auto-merge. CodeRabbit provides free reviews for public repositories according to https://www.coderabbit.ai/oss; no plan was purchased or upgraded.
 
 Supabase deployment currently uses the authenticated CLI. GitHub Actions does **not** have cloud deployment secrets and does not claim automatic production deployment. Sites serves the static frontend.
 
