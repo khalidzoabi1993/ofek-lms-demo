@@ -1,0 +1,46 @@
+[
+  {
+    "id": "golf-advanced",
+    "title": "יסודות הגולף · דיווח מפורט",
+    "sourceTitle": "Rustici Software · Golf Explained",
+    "language": "אנגלית",
+    "version": "2004",
+    "file": "samples/golf-advanced.zip",
+    "launch": "courses/golf/shared/launchpage.html",
+    "sha256": "03ef0a56a0786a5f5d1b94cc3bb09529dd380165dbcbb5744b229f3d78879220",
+    "bytes": 411126,
+    "fileCount": 78,
+    "manifestId": "com.scorm.golfsamples.runtime.advancedruntime.20043rd",
+    "objectives": [
+      "PRIMARYOBJ",
+      "obj_etiquette",
+      "obj_handicapping",
+      "obj_havingfun",
+      "obj_playing"
+    ],
+    "mastery": 80,
+    "source": "https://scorm.com/scorm-explained/technical-scorm/golf-examples/",
+    "license": "https://creativecommons.org/licenses/by/3.0/us/",
+    "hasInteractions": true,
+    "pages": 15
+  },
+  {
+    "id": "golf-basic",
+    "title": "יסודות הגולף · דיווח בסיסי",
+    "sourceTitle": "Rustici Software · Golf Explained",
+    "language": "אנגלית",
+    "version": "1.2",
+    "file": "samples/golf-basic.zip",
+    "launch": "courses/golf-basic/shared/launchpage.html",
+    "sha256": "b778566f79d56e48fab58f3a4e1fe8c1d05f372be9db3385aa1a1896063fe02a",
+    "bytes": 360842,
+    "fileCount": 49,
+    "manifestId": "com.scorm.golfsamples.runtime.basicruntime.12",
+    "objectives": [],
+    "mastery": 70,
+    "source": "https://scorm.com/scorm-explained/technical-scorm/golf-examples/",
+    "license": "https://creativecommons.org/licenses/by/3.0/us/",
+    "hasInteractions": false,
+    "pages": 15
+  }
+]

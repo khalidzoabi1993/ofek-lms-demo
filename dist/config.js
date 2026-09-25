@@ -1,0 +1,1 @@
+export const CLOUD={"url": "https://nnbdbabmsqnecnmnvleh.supabase.co", "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5uYmRiYWJtc3FuZWNubW52bGVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAyOTc2NDYsImV4cCI6MjEwNTg3MzY0Nn0.ZZk3OFMVp4nHOJCl4PQBM84VdM1MfsgH2RINMKW8a2I"};

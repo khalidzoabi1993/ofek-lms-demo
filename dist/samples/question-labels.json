@@ -1,0 +1,144 @@
+{
+  "com.scorm.golfsamples.interactions.playing_1": {
+    "id": "com.scorm.golfsamples.interactions.playing_1",
+    "description": "The rules of golf are maintained by:'?",
+    "type": "choice",
+    "choices": [
+      "The UN",
+      "USGA and Royal and Ancient",
+      "The PGA",
+      "Each course has it's own rules"
+    ],
+    "correct": "USGA and Royal and Ancient",
+    "objective": "obj_playing"
+  },
+  "com.scorm.golfsamples.interactions.playing_2": {
+    "id": "com.scorm.golfsamples.interactions.playing_2",
+    "description": "A score of two under par on a given hole is known as a(n):",
+    "type": "choice",
+    "choices": [
+      "opportity for improvement",
+      "birdie",
+      "double bogie",
+      "eagle"
+    ],
+    "correct": "eagle",
+    "objective": "obj_playing"
+  },
+  "com.scorm.golfsamples.interactions.playing_3": {
+    "id": "com.scorm.golfsamples.interactions.playing_3",
+    "description": "A typical golf course has ____ holes",
+    "type": "numeric",
+    "choices": null,
+    "correct": 18,
+    "objective": "obj_playing"
+  },
+  "com.scorm.golfsamples.interactions.playing_4": {
+    "id": "com.scorm.golfsamples.interactions.playing_4",
+    "description": "In stableford scoring, the highest score wins.",
+    "type": "true-false",
+    "choices": null,
+    "correct": true,
+    "objective": "obj_playing"
+  },
+  "com.scorm.golfsamples.interactions.playing_5": {
+    "id": "com.scorm.golfsamples.interactions.playing_5",
+    "description": "Par for a 175 yard hole is typically:",
+    "type": "numeric",
+    "choices": null,
+    "correct": 3,
+    "objective": "obj_playing"
+  },
+  "com.scorm.golfsamples.interactions.etiquette_1": {
+    "id": "com.scorm.golfsamples.interactions.etiquette_1",
+    "description": "When another player is attempting a shot, it is best to stand:",
+    "type": "choice",
+    "choices": [
+      "On top of his ball",
+      "Directly in his line of fire",
+      "Out of the player's line of sight"
+    ],
+    "correct": "Out of the player's line of sight",
+    "objective": "obj_etiquette"
+  },
+  "com.scorm.golfsamples.interactions.etiquette_2": {
+    "id": "com.scorm.golfsamples.interactions.etiquette_2",
+    "description": "Generally sand trap rakes should be left outside of the hazard",
+    "type": "true-false",
+    "choices": null,
+    "correct": true,
+    "objective": "obj_etiquette"
+  },
+  "com.scorm.golfsamples.interactions.etiquette_3": {
+    "id": "com.scorm.golfsamples.interactions.etiquette_3",
+    "description": "The player with the best score on previous hole tees off:",
+    "type": "choice",
+    "choices": [
+      "First",
+      "Last",
+      "With a putter"
+    ],
+    "correct": "First",
+    "objective": "obj_etiquette"
+  },
+  "com.scorm.golfsamples.interactions.handicap_1": {
+    "id": "com.scorm.golfsamples.interactions.handicap_1",
+    "description": "Which formula is used to calculate the 'course handicap'?",
+    "type": "choice",
+    "choices": [
+      "Course Handicap = Handicap index + number of holes * number of lost balls in last round",
+      "Course Handicap = Number of years experience / annual equipment spending",
+      "Course Handicap = Handicap index * Slope Rating / 113"
+    ],
+    "correct": "Course Handicap = Handicap index * Slope Rating / 113",
+    "objective": "obj_handicapping"
+  },
+  "com.scorm.golfsamples.interactions.handicap_2": {
+    "id": "com.scorm.golfsamples.interactions.handicap_2",
+    "description": "Golfer A has a course handicap of 6. Golfer B has a course handicap of 10. Golfer A shoots an 81. Golfer B shoots an 84. Golfer B wins the match be how many strokes?",
+    "type": "numeric",
+    "choices": null,
+    "correct": 1,
+    "objective": "obj_handicapping"
+  },
+  "com.scorm.golfsamples.interactions.handicap_3": {
+    "id": "com.scorm.golfsamples.interactions.handicap_3",
+    "description": "A 'scratch golfer' has a handicap of ___",
+    "type": "numeric",
+    "choices": null,
+    "correct": 0,
+    "objective": "obj_handicapping"
+  },
+  "com.scorm.golfsamples.interactions.handicap_4": {
+    "id": "com.scorm.golfsamples.interactions.handicap_4",
+    "description": "Golfer A has a course handicap of 3. Golfer B has a course handicap of 28. On the 6th handicap hole, how many strokes will Golfer A have to give Golfer B in match play?",
+    "type": "numeric",
+    "choices": null,
+    "correct": 2,
+    "objective": "obj_handicapping"
+  },
+  "com.scorm.golfsamples.interactions.fun_1": {
+    "id": "com.scorm.golfsamples.interactions.fun_1",
+    "description": "To make friends on the golf course, you should play really slowly.",
+    "type": "true-false",
+    "choices": null,
+    "correct": false,
+    "objective": "obj_havingfun"
+  },
+  "com.scorm.golfsamples.interactions.fun_2": {
+    "id": "com.scorm.golfsamples.interactions.fun_2",
+    "description": "Knickers indicate a refined sense of style.",
+    "type": "true-false",
+    "choices": null,
+    "correct": false,
+    "objective": "obj_havingfun"
+  },
+  "com.scorm.golfsamples.interactions.fun_3": {
+    "id": "com.scorm.golfsamples.interactions.fun_3",
+    "description": "You should take your score very seriously if you want to have a lot of fun on the course.",
+    "type": "true-false",
+    "choices": null,
+    "correct": false,
+    "objective": "obj_havingfun"
+  }
+}
