@@ -42,5 +42,19 @@
     "license": "https://creativecommons.org/licenses/by/3.0/us/",
     "hasInteractions": false,
     "pages": 15
+  },
+  {
+    "id": "genially-learning-unit",
+    "title": "Learning Unit · הלומדה שלך",
+    "sourceTitle": "Genially · khalid zoabi",
+    "language": "אנגלית",
+    "version": "embed",
+    "kind": "external",
+    "launch": "https://view.genially.com/6888260819c2db6967dce6cb",
+    "source": "https://view.genially.com/6888260819c2db6967dce6cb",
+    "hasInteractions": false,
+    "objectives": [],
+    "pages": null,
+    "mastery": null
   }
 ]
