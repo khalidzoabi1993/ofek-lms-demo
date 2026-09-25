@@ -23,3 +23,15 @@ Genially source: https://view.genially.com/6888260819c2db6967dce6cb
 Genially tracking integration documentation: https://genially.com/features/lms-integration/
 
 Additional browser check: SCORM 1.2 course was opened, advanced by two pages, closed and reopened. Its original resume confirmation appeared and returned to the saved scoring page.
+
+
+## TES-58 — Genially playback follow-up, 25 September 2026
+
+- Reproduced: the two YouTube anchors in the supplied Genially use `target="_top"`; clicking them in the old sandbox left the LMS URL unchanged.
+- Added only user-activated top navigation to this allowlisted external course iframe; scripted top navigation remains disallowed. SCORM iframe policy unchanged.
+- Verified on the deployed private Site: the original video hotspot now navigates to YouTube `5KLPxDtMqe8` (Your Brain is Plastic); Back returns to the LMS.
+- Added a separate YouTube link using a new tab so the LMS can stay open. Confirmed a separate tab opened.
+- Verified the labeled fullscreen button expands the existing player, switches to a return button, and retains the open Genially information window after returning. A CSS expansion fallback is included for unsupported/denied fullscreen; that fallback was not forced in this browser.
+- Existing 10 automated core tests pass: 100% lines/functions and 98.46% branches in the two measured core modules. This does not measure the browser integration or whole system.
+- Local preview's third-party iframe stayed blank in this IAB session; the deployed HTTPS Site loaded and was used for the interaction checks above.
+- Public-link mode still records opens/window duration only, not quiz responses or video completion.
