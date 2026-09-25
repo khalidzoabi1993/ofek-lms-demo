@@ -30,7 +30,7 @@ Jira tasks: [TES-58 learning](https://wiseapps.atlassian.net/browse/TES-58), [TE
 
 GitHub Actions runs syntax checks, automated domain/runtime tests, a 90% lines/branches/functions coverage gate **for those two measured core modules**, sample-integrity validation and publishes evidence/artifact downloads. UI and Edge Function coverage are not included in that number. The user's eventual requirement is 90% across the system; that requirement is **not yet achieved or claimed** by this meeting prototype.
 
-CodeRabbit is configured using the already-installed plan only. If the free allowance does not provide a review, the review remains pending. A human review and manual acceptance are still necessary. A config file alone does not enforce a required GitHub check: repository branch rules must require the actual available check names once established. This demo does not auto-merge.
+CodeRabbit is configured using the already-installed plan only. If the free allowance does not provide a review, the review remains pending. A human review and manual acceptance are still necessary. The main branch requires the actual Tests and core coverage 90% and CodeRabbit checks, one human approval, dismissal of stale approvals and resolution of review conversations. This demo does not auto-merge. CodeRabbit provides free reviews for public repositories according to https://www.coderabbit.ai/oss; no plan was purchased or upgraded.
 
 Supabase deployment currently uses the authenticated CLI. GitHub Actions does **not** have cloud deployment secrets and does not claim automatic production deployment. Sites serves the static frontend.
 
@@ -48,3 +48,9 @@ Supabase deployment currently uses the authenticated CLI. GitHub Actions does **
 Rustici Software Golf Examples: https://scorm.com/scorm-explained/technical-scorm/golf-examples/
 
 Original archives, manifests and embedded attribution preserved. Creative Commons Attribution 3.0 US: https://creativecommons.org/licenses/by/3.0/us/. These are Rustici SCORM samples, not courses authored in Storyline. Original sample questions reveal their expected answers for demonstration purposes.
+
+## Genially reference
+
+The supplied public Learning Unit is available as an additional library item. It is embedded from Genially without copying or exporting its source. Only wrapper open/close duration is recorded; no quiz answers, scores, screen progress or completion are inferred. Actual tracking needs a suitable Genially export/integration and compatibility validation: https://genially.com/features/lms-integration/.
+
+The meeting guide includes a reversible "new learning round" action: the existing library, assignments and attempts are retained as one backup before clearing the current presentation round. The previous round can be restored.

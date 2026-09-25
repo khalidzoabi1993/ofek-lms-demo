@@ -1,0 +1,31 @@
+name: Quality checks
+on:
+  push:
+    branches: [main, 'feat/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  quality:
+    name: Tests and core coverage 90%
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate application syntax
+        run: npm run check
+      - name: Test domain and SCORM runtime with enforced coverage
+        run: npm run test:coverage | tee quality-report.txt
+      - name: Verify published sample integrity
+        run: node scripts/verify-samples.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quality-evidence
+          path: quality-report.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meeting-demo
+          path: dist/
